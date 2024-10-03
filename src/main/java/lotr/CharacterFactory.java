@@ -5,15 +5,14 @@ public class CharacterFactory  {
     private static Random random = new Random();
 
     public Character createCharacter(){
-        int num = random.nextInt(1,5);
-        if (num == 1){
+        int num = random.nextInt(4);
+        if (num == 0){
             return new Hobbit();
-            
         }
-        else if (num == 2){
+        else if (num == 1){
             return new Elf();
         }
-        else if (num == 3){
+        else if (num == 2){
             return new King();
         }
         else {
