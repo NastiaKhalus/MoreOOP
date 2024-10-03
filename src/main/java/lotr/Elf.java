@@ -16,8 +16,4 @@ public class Elf extends Character {
         }
     }
 
-    @Override
-    public String toString() {
-        return getClass().getSimpleName() + super.toString();
-    }
 }

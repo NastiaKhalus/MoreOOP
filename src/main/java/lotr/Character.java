@@ -40,6 +40,6 @@ public abstract class Character {
 
     @Override
     public String toString() {
-        return "{hp=" + getHp() + ", power=" + getPower() + "}";
+        return  getClass().getSimpleName() + "{hp=" + getHp() + ", power=" + getPower() + "}";
     }
 }
